@@ -12,16 +12,16 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 ```
-def result(a,b):
-    return a%b
+def result(a, b):
+    modulo_value = a % b
+    return modulo_value
+
 a=int(input())
 b=int(input())
-print(f"modulo is {result(a,b)}")
+print("modulo is", result(a, b))
 ```
-
 ## Output
-<img width="1045" height="293" alt="image" src="https://github.com/user-attachments/assets/3a6707d4-72b5-42ac-ad81-21b73a23ccd5" />
-
+![image](https://github.com/user-attachments/assets/f983df10-9b49-472b-9611-5822c678086d)
 
 ## Result
-Thus, the python program was executed successfully.
+Thus,the Python program that defines a function which accepts two values and returns their modulo using the % operator is created successfully.
